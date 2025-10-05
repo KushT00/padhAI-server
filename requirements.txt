@@ -1,29 +1,29 @@
 # FastAPI Framework
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-pydantic==2.5.3
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.10.0
 
 # LangChain and AI Components
-langchain==0.1.6
-langchain-google-genai==0.0.9
-langchain-community==0.0.17
-langchain-groq==0.0.1
+langchain>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-community>=0.3.0
+langchain-groq>=0.2.0
 
 # Vector Store and Embeddings
-faiss-cpu==1.12.0
+faiss-cpu>=1.9.0
 
 # Document Processing
-pypdf==3.17.4
+pypdf>=5.1.0
 
 # Database and Storage
-supabase==2.3.0
+supabase>=2.10.0
 
 # Authentication
-pyjwt==2.8.0
+pyjwt>=2.10.0
 
 # Environment Variables
-python-dotenv==1.0.0
+python-dotenv>=1.0.1
 
 # Additional Dependencies
-python-multipart==0.0.6
-httpx==0.26.0
+python-multipart>=0.0.20
+httpx>=0.28.0
